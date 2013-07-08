@@ -40,6 +40,8 @@ set smartindent
 set shiftwidth=4
 set nowrap
 
+set laststatus=2
+
 "Use the arrows to something useful, buffer management.
 "put @binarydud on this and watch him cry.
 map <right> :bn<cr>
