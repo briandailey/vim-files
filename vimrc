@@ -40,6 +40,8 @@ set smartindent
 set shiftwidth=4
 set nowrap
 
+set backspace=indent,eol,start            " Allow backspace to go beyond insert start
+
 set laststatus=2
 
 "Use the arrows to something useful, buffer management.
