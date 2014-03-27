@@ -52,7 +52,7 @@ map <down> :bd<cr>
 
 " 256 color mode.
 set t_Co=256
-colorscheme wombat256i
+colorscheme zenburn
 
 " highlight trailing whitespace so we catch it early.
 highlight ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
@@ -105,3 +105,5 @@ run SyntasticEnable sh
 run SyntasticEnable python
 
 let g:vim_markdown_folding_disabled=1
+
+let g:airline#extensions#tabline#enabled = 1
