@@ -111,3 +111,5 @@ let g:airline#extensions#tabline#enabled = 1
 au FileType ruby,html,htm,php,xml,javascript setlocal tabstop=2
 au FileType ruby,html,htm,php,xml,javascript setlocal shiftwidth=2
 au FileType ruby,html,htm,php,xml,javascript setlocal softtabstop=2
+
+abbrev tablethrow (╯°□°)╯︵ ┻━┻
