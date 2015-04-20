@@ -65,9 +65,8 @@ autocmd BufWinLeave * call clearmatches()
 
 " PLUGINS =========
 " use fancy airline fonts
-let g:airline_powerline_fonts=1
-let g:airline_enable_fugitive=1
-let g:airline_enable_syntastic=1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 
 "syntastic
 let g:syntastic_enable_signs=1
@@ -114,3 +113,7 @@ au FileType ruby,html,htm,php,xml,javascript setlocal shiftwidth=2
 au FileType ruby,html,htm,php,xml,javascript setlocal softtabstop=2
 
 abbrev tablethrow (╯°□°)╯︵ ┻━┻
+
+" python3 from powerline.vim import setup as powerline_setup
+" python3 powerline_setup()
+" python3 del powerline_setup
