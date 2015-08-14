@@ -52,7 +52,7 @@ map <down> :bd<cr>
 
 " 256 color mode.
 set t_Co=256
-colorscheme zenburn
+colorscheme monokai
 " colorscheme jellybeans
 
 " highlight trailing whitespace so we catch it early.
